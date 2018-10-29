@@ -1,0 +1,25 @@
+{
+  "type": "library",
+  "name": "zeroibc/ip2region",
+  "homepage": "https://github.com/zeroibc/Ip2Region",
+  "description": "Ip2Region for PHP",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "zeroibc",
+      "email": "zeroibc@qq.com",
+      "homepage": "http://zeroibc.com"
+    }
+  ],
+  "keywords": [
+    "Ip2Region"
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+            "Zeroibc\\": "src/"
+    }
+  }
+}
